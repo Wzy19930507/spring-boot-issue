@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.AutoConfigureBefore;
 import org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration;
 
 @AutoConfiguration
-@AutoConfigureBefore(KafkaAutoConfiguration.class)
+@AutoConfigureBefore(SecondAutoConfiguration.class)
 public class FirstAutoConfiguration {
 
     public FirstAutoConfiguration() {

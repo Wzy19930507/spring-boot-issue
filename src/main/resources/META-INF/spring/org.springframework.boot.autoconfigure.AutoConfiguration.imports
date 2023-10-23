@@ -1,2 +1,4 @@
 org.starter.FirstAutoConfiguration
 org.starter.SecondAutoConfiguration
+org.starter.ThirdAutoConfiguration
+org.starter.FourAutoConfiguration

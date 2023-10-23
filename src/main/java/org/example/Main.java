@@ -16,7 +16,7 @@ public class Main {
     @Bean
     public ApplicationRunner runner(Demo demo) {
         // 是否同步
-        return args -> System.out.println("runner demo");
+        return args -> {};
     }
 
 }
