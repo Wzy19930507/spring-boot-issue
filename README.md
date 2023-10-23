@@ -1,2 +1,2 @@
 # spring-boot-issue
-demo in branch master
+issue in branch master
