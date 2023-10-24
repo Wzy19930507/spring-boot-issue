@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    bootstrap-servers: "10.6.0.4:15386"
+    producer:
+      valueSerializer: 'org.apache.kafka.common.serialization.IntegerSerializer'
+    consumer:
+      valueDeserializer: 'org.apache.kafka.common.serialization.IntegerDeserializer'
