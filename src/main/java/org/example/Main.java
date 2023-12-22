@@ -14,13 +14,10 @@ public class Main {
     }
 
     @Bean
-    public ApplicationRunner runner(KafkaTemplate kafkaTemplate) {
-        // 是否同步
+    public ApplicationRunner runner(KafkaTemplate<String, String> kafkaTemplate) {
         return args -> {
-            while (true) {
-                Thread.sleep(1000);
-                kafkaTemplate.send("ok", "1");
-            }
+            Thread.sleep(1000);
+            kafkaTemplate.send("TEST", "1");
         };
     }
 
